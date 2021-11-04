@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../media.file/Montserrat/Montserrat-Black.ttf') format('ttf');
+    src: url('../media.file/Montserrat/Montserrat-BlackItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-Bold.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-BoldItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-ExtraBold.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-ExtraBoldItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-ExtraLight.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-ExtraLightItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-Italic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-Light.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-LightItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-Medium.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-MediumItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-Regular.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-SemiBold.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-SemiBoldItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-Thin.ttf') format(ttf);
+    src: url('../media.file/Montserrat/Montserrat-ThinItalic.ttf') format(ttf);
+    src: url('../media.file/Montserrat/') format(ttf);
+}
+
+*{
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+    background: url('../media.file/hero-bg.jpeg'), no-repeat;
+    background-size: cover;
+    opacity: 0,5;
+}
+
+strong{
+    color: rgb(rgb(223, 35, 35), green, blue);
+}
+
+header{
+    size: 1300px, 30px;
+    background-color: rgba(rgba(0, 0, 0, 0.685), green, blue, alpha);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    display: inline;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
